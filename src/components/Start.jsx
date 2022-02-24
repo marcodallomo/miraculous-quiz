@@ -13,7 +13,7 @@ const Start = ({ setUsername, setTopic }) => {
 
   return (
     <div className="start">
-      <img src="images/ladybug2.jpg" alt="Milionaire" width="400" className="imageStart" />
+      <img src="images/ladybug2.jpg" alt="Miraculous" width="400" className="imageStart" />
       <input placeholder=" Enter your name" className="startInput" ref={inputRef} />
       <div className="topicChoice">
         <input type="radio" name="choice" value="Math" onChange={handleChange} />  <label className="Math">MATH</label>

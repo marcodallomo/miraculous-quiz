@@ -1,66 +1,66 @@
 const dataB = [
   {
     id: 1,
-    question: "bla bla bla bla",
+    question: "What's the correct spelling ?",
     answers: [
       {
-        text: "Sean Connery",
+        text: "Taible",
         correct: false,
       },
       {
-        text: "Adam West",
+        text: "Table",
         correct: true,
       },
       {
-        text: "Marlon Brando",
+        text: "tabl",
         correct: false,
       },
       {
-        text: "Anthony Perkins",
+        text: "Teible",
         correct: false,
       },
     ],
   },
   {
     id: 2,
-    question: "Who played Mary Poppins in the 1964 movie?",
+    question: "What's the correct spelling ?",
     answers: [
       {
-        text: "Julie Andrews",
+        text: "dinosaur ",
         correct: true,
       },
       {
-        text: "Marylin Monroe",
+        text: "dinosour ",
         correct: false,
       },
       {
-        text: "Bette Davis",
+        text: "dainosaur ",
         correct: false,
       },
       {
-        text: "Audrey Hepburn",
+        text: "dinasaur ",
         correct: false,
       },
     ],
   },
   {
     id: 3,
-    question: "Who played the character of Harry Potter in the movie?",
+    question: "Complete the sentence with the correct adjective. These tomatoes are... they were yesterday.",
     answers: [
       {
-        text: "Johnny Deep",
+        text: "reddest",
         correct: false,
       },
       {
-        text: "Leonardo Di Caprio",
+        text: "reddest than",
         correct: false,
       },
       {
-        text: "Denzel Washington",
+        text: "more redder than",
         correct: false,
       },
       {
-        text: "Daniel Radcliffe",
+        text: "redder than",
         correct: true,
       },
     ],
@@ -68,22 +68,22 @@ const dataB = [
 
   {
     id: 4,
-    question: "What car drove Magnum PI ?",
+    question: "Complete the sentence with the correct adjective. Who is the....runner in the world?",
     answers: [
       {
-        text: "Fiat 500",
+        text: "more fast",
         correct: false,
       },
       {
-        text: "Lamborghini",
+        text: "faster",
         correct: false,
       },
       {
-        text: "Porshe",
+        text: "most fastest",
         correct: false,
       },
       {
-        text: "Ferrari",
+        text: "fastest",
         correct: true,
       },
     ],
@@ -91,22 +91,22 @@ const dataB = [
 
   {
     id: 5,
-    question: "Who starred in Dance with the wolves in 1990 ?",
+    question: "Complete the sentence with the correct adjective.I gave my bike a wash and now it looks...",
     answers: [
       {
-        text: "Richard Gere",
+        text: "gooder",
         correct: false,
       },
       {
-        text: "Tom Hanks",
+        text: "more good",
         correct: false,
       },
       {
-        text: "Kevin Kostner",
+        text: "better",
         correct: true,
       },
       {
-        text: "Will Smith",
+        text: "best",
         correct: false,
       },
     ],
@@ -114,22 +114,22 @@ const dataB = [
 
   {
     id: 6,
-    question: "Who starred in Harvey in 1950?",
+    question: "Complete the sentence with the correct adjective. Oak trees are tall, but sequoias are even...",
     answers: [
       {
-        text: "Cary Grant",
+        text: "more tall",
         correct: false,
       },
       {
-        text: "James Stewart",
+        text: "taller",
         correct: true,
       },
       {
-        text: "Audie Murphy",
+        text: "most tall",
         correct: false,
       },
       {
-        text: "Glenn Ford",
+        text: "tallest",
         correct: false,
       },
     ],
@@ -137,22 +137,22 @@ const dataB = [
 
   {
     id: 7,
-    question: "In which year was Julia Roberts born?",
+    question: "Complete the sentence with the correct adjective. That was the... holiday I have ever had!",
     answers: [
       {
-        text: "1955",
+        text: "most bad",
         correct: false,
       },
       {
-        text: "1978",
+        text: "baddest",
         correct: false,
       },
       {
-        text: "1966",
+        text: "most worser",
         correct: false,
       },
       {
-        text: "1967",
+        text: "worst",
         correct: true,
       },
     ],
@@ -160,22 +160,22 @@ const dataB = [
 
   {
     id: 8,
-    question: "Who played 'Howling Mad' Murdock? in the tv series  'A Team'",
+    question: "Which one of the following words is NOT a synonym for 'odour'?",
     answers: [
       {
-        text: "Mr T",
+        text: "Scent",
         correct: false,
       },
       {
-        text: "Dirk Benedict",
+        text: "Smell",
         correct: false,
       },
       {
-        text: "Dwight Schultz",
+        text: "Taste",
         correct: true,
       },
       {
-        text: "George Peppard",
+        text: "Aroma",
         correct: false,
       },
     ],
@@ -183,22 +183,22 @@ const dataB = [
 
   {
     id: 9,
-    question: "What make was the iconic striped car in the original Starrsky & Hutch series?",
+    question: "What's the correct spelling ?",
     answers: [
       {
-        text: "Chevrolet Corvette",
+        text: "Bafroom",
         correct: false,
       },
       {
-        text: "Ford Gran Torino",
+        text: "Bathroom",
         correct: true,
       },
       {
-        text: "Alfa Romeo",
+        text: "Bathrum",
         correct: false,
       },
       {
-        text: "Mercedes",
+        text: "Bathroum",
         correct: false,
       },
     ],
@@ -206,22 +206,22 @@ const dataB = [
 
   {
     id: 10,
-    question: "Which Italian actor starred in 'La vita e' bella' ?",
+    question: "What's the correct spelling ?",
     answers: [
       {
-        text: "Paolo Villaggio",
+        text: "Fation Designer",
         correct: false,
       },
       {
-        text: "Fabrizio Bentinvoglio",
+        text: "Facion Desiner",
         correct: false,
       },
       {
-        text: "Marcello Mastroianni",
+        text: "Fashion Desighner",
         correct: false,
       },
       {
-        text: "Roberto Benigni",
+        text: "Fashion Designer",
         correct: true,
       },
     ],
@@ -229,44 +229,44 @@ const dataB = [
 
   {
     id: 11,
-    question: "Who plays Fonzies in the Tv series 'Happy Days' ?",
+    question: "What's the correct spelling ?",
     answers: [
       {
-        text: "John Travolta",
+        text: "Adorabole eyes",
         correct: false,
       },
       {
-        text: "Henry Winkler",
+        text: "Adorable eyes",
         correct: true,
       },
       {
-        text: "River Phoenix",
+        text: "Adoorable eyes",
         correct: false,
       },
       {
-        text: "Scott Baio",
+        text: "Adorabl eyes",
         correct: false,
       },
     ],
   },
   {
     id: 12,
-    question: "In which Tv series Robin Williams plays an extraterrestrial ?",
+    question: "What's the correct spelling ?",
     answers: [
       {
-        text: "Mork & Mindy",
+        text: "Great Britain",
         correct: true,
       },
       {
-        text: "Chips",
+        text: "Graet Britein",
         correct: false,
       },
       {
-        text: "Simon & Simon",
+        text: "Greit Britain",
         correct: false,
       },
       {
-        text: "Riptide",
+        text: "Great Brittain",
         correct: false,
       },
     ],
@@ -274,22 +274,22 @@ const dataB = [
 
   {
     id: 13,
-    question: "Which actor starred in the movie 'The talented Mr Ripley' ?",
+    question: "What's the correct spelling ?",
     answers: [
       {
-        text: "Andy Garcia",
+        text: "Homeworke",
         correct: false,
       },
       {
-        text: "Al Pacino",
+        text: "Homwork",
         correct: false,
       },
       {
-        text: "Ben Affleck",
+        text: "Homeworck",
         correct: false,
       },
       {
-        text: "Matt Damon",
+        text: "Homework",
         correct: true,
       },
     ],
@@ -297,22 +297,22 @@ const dataB = [
 
   {
     id: 14,
-    question: "Who played the role of 'Inspector Clouseau' in the 60s ?",
+    question: "What's the correct spelling ?",
     answers: [
       {
-        text: "Jack Lemmon",
+        text: "Hairplane",
         correct: false,
       },
       {
-        text: "Peter Sellers",
+        text: "Airplane",
         correct: true,
       },
       {
-        text: "Louis De Funes",
+        text: "Eirplane",
         correct: false,
       },
       {
-        text: "Tony Curtis",
+        text: "Airplain",
         correct: false,
       },
     ],
@@ -320,22 +320,22 @@ const dataB = [
 
   {
     id: 15,
-    question: "Who starred in the movie 'Million Dollar Baby' alongside Clint Eastwood ?",
+    question: "What's the correct spelling ?",
     answers: [
       {
-        text: "Marisa Tomei",
+        text: "Accydentally",
         correct: false,
       },
       {
-        text: "Patricia Arquette",
+        text: "Accidentaly",
         correct: false,
       },
       {
-        text: "Hilary Swank",
+        text: "Accidentally",
         correct: true,
       },
       {
-        text: "Mila Kunis",
+        text: "Accidantaly",
         correct: false,
       },
     ],
