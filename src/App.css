@@ -327,4 +327,7 @@
   .topicChoice {
     width: 200px;
   }
+  .moneyListItemAmmount {
+    font-size: 15px;
+  }
 }
