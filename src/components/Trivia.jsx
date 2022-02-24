@@ -22,7 +22,7 @@ const Trivia = ({ data, dataB, setStop, questionNumber, setQuestionNumber, topic
 
     setQuestion(list[questionNumber - 1]);
     console.log("try", topic, list);
-  }, [questionNumber]);
+  }, [data, dataB, topic, questionNumber]);
 
   const delay = (duration, callback) => {
     setTimeout(() => {
