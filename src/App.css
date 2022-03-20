@@ -254,10 +254,10 @@
 
 @keyframes entrance {
   from {
-    scale: 0.01;
+    transform: scale(0.1);
   }
   to {
-    scale: 1;
+    transform: scale(1);
   }
 }
 
