@@ -248,6 +248,16 @@
 .imageStart {
   border-radius: 20%;
   margin-bottom: 30px;
+  animation: entrance 2s linear;
+}
+
+@keyframes entrance {
+  from {
+    scale: 0.01;
+  }
+  to {
+    scale: 1;
+  }
 }
 
 .topicChoice {
