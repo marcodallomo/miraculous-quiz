@@ -5,28 +5,36 @@ const Start = ({ setUsername, setTopic }) => {
 
   const handleChange = (e) => {
     setTopic(e.target.value);
+    localStorage.setItem("topic", e.target.value);
   };
 
   const handleClick = () => {
-    inputRef.current.value && setUsername(inputRef.current.value);
+    inputRef.current.value ? setUsername(inputRef.current.value) : alert("Enter your name :-)");
+    localStorage.setItem("username", inputRef.current.value);
   };
 
   return (
     <div className="start">
       <img src="images/ladybug2.jpg" alt="Miraculous" width="400" className="imageStart" />
       <input placeholder=" Enter your name" className="startInput" ref={inputRef} />
-      <div className="topicChoice">
+      {/* <div className="topicChoice">
         <div>
           <label className="English">ENGLISH</label>
-          <input type="radio" name="choice" value="English" onChange={handleChange} /> 
+          <input type="radio" name="choice" value="English" onChange={handleChange} />
         </div>
 
         <div>
           <label className="Math">MATH</label>
-          <input type="radio" name="choice" value="Math" onChange={handleChange} /> 
+          <input type="radio" name="choice" value="Math" onChange={handleChange} />
         </div>
-      </div>
+      </div> */}
 
+      <div>
+        <select name="topic" className="topicSelection" onChange={handleChange}>
+          <option value="English">English</option>
+          <option value="Math">Math</option>
+        </select>
+      </div>
       <button className="startButton" onClick={handleClick}>
         Start
       </button>

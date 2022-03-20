@@ -9,12 +9,12 @@ import useSound from "use-sound";
 import applause from "./assets/applause-01.mp3";
 
 function App() {
-  const [username, setUsername] = useState(null);
+  const [username, setUsername] = useState(localStorage.getItem("username"));
   const [questionNumber, setQuestionNumber] = useState(1);
   const [stop, setStop] = useState(false);
   const [earned, setEarned] = useState("0 ⭐ Try again :-)");
   const [jackPot] = useSound(applause);
-  const [topic, setTopic] = useState(null);
+  const [topic, setTopic] = useState(localStorage.getItem("topic"));
 
   const moneyPyramid = useMemo(
     () =>
@@ -47,6 +47,13 @@ function App() {
     window.location.reload(false);
   };
 
+  const changeUser = () => {
+    localStorage.removeItem("username");
+    localStorage.removeItem("topic");
+
+    refreshPage();
+  };
+
   return (
     <div className={username ? "app" : "appStart"}>
       {username ? (
@@ -66,6 +73,9 @@ function App() {
 
                 <button className="buttonAgain" onClick={refreshPage}>
                   Play again
+                </button>
+                <button className="buttonAgain" onClick={changeUser}>
+                  Change User & topic
                 </button>
               </>
             ) : (
