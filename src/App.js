@@ -85,7 +85,7 @@ function App() {
                     <Timer setStop={setStop} questionNumber={questionNumber} />
                   </div>
                   <div className="userId">
-                    <h1>Hi {username} !</h1>
+                    <h1>Hi {username === "Deniz" ? "Lovely Deniz" : username} !</h1>
                     <h1>Practice with some {topic} :-)</h1>
                   </div>
                 </div>
